@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+        var dzien1=prompt("Dzien1=","");
+        var dzien2=prompt("Dzien2=","");
+        var ile_sekund_jed;
+        var a=parseFloat(dzien1);
+        var b=parseFloat(dzien2);
+if (a>b) 
+{
+    wynik=(a86400)-(b86400);
+}
+if (a<b) 
+{
+    wynik=(b86400)-(a86400);
+}
+if (a==b) 
+{
+    wynik=0;
+}
+function okno_zamknij()
+{
+window.close()
+}
+document.write("Dzien1=  "+a+" <br>");
+document.write("Dzien2=  "+b+" <br>");
+document.write("Ilosc sekund= " +wynik+"sekund <br>");
+</script>
+</head>
+<body>
+ <p> <input type="button" value="zamknij okno" onclick="okno_zamknij()"/> </p>
+</body>
+</head>
+</html>
