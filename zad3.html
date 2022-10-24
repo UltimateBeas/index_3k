@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_jędrzejewski()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<p>========================Początek opisu teorii========================</p>
+<p><b>Rodzaje okienek:</b><br>
+Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK, <br>
+Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną 
+następnie do programu. <br>
+Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm)</p>
+<p><b>Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</b><br>
+1. Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez 
+polskich znaków), cyfry oraz "$" i "_".<br>
+
+Poprawne nazwy zmiennych: zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz<br>
+Błędne nazwy zmiennych: 1zmienna, wynik gry, wysokosc &szerokosc, wynik.rekord, &gracz, <br>
+wysokość, imie+nazwisko.<br>
+2. Wielkość liter ma znaczenie.<br>
+Rekord i rekord to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie <br>
+początkujących programistów.<br>
+3. Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.</p>
+
+<p><b>Typy zmiennych w Javascript</b><br>
+W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy <br>
+zmiennych są definiowane w trakcie ich przypisywania. <br>
+Podstawowe zmienne liczbowe w JavaScript to:<br>
+Number - Typ liczbowy<br>
+zmienna całkowite<br>
+zmiennoprzecinkowe<br>
+String - Typ tekstowy<br>
+Boolea - Typ logiczny<br>
+Null - Pusta zawartość<br>
+Undefined - Typ niezidentyfikowany<br>
+Object - Obiekt<br></p>
+
+<p><b>Konwersji zmiennych.</b><br>
+Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest <br>
+konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.<br>
+parseFloat(zmienna) - konwersja zmiennej do typu float<br>
+parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego)<br>
+toString(zmienna) - konwersja zmiennej do typu łańcuchowego<br></p>
+<p>========================Koniec opisu teorii========================</p>
+
+<input type="button" value="zamknij okno" onclick="okno_zamknij_jędrzejewski()"/>
+ </body>
+</html>
